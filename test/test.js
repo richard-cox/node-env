@@ -24,7 +24,7 @@ describe('node-env/sdk/environment', function (done) {
 
   it("Key processor replaces \\r with an empty space", function () {
     var result = keyProcessor.procKey('Name', 'VALUE\r');
-    result.should.not.be.equal('VALUE');
+    result.should.be.equal('VALUE');
   });
 
   it("Key processor replaces \\n with a <br/> tag", function () {
@@ -34,7 +34,7 @@ describe('node-env/sdk/environment', function (done) {
 
   it("Key processor generates a <span> tag for the path variable", function () {
     var result = keyProcessor.procKey('path', 'VALUE');
-    result.should.be.equal('VALUE');
+    result.should.not.be.equal('VALUE');
   });
 
   it("Key processor generates a <span> tag for the path variable", function () {
