@@ -35,7 +35,7 @@ describe('node-env/sdk/environment', function (done) {
 
   it("Key processor generates a <span> tag for the path variable", function () {
     var result = keyProcessor.procKey('path', 'VALUE');
-    result.should.be.equal('VALUE');
+    result.should.not.be.equal('VALUE');
   });
 
   it("Key processor generates a <span> tag for the path variable", function () {
