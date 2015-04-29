@@ -14,7 +14,6 @@
   },
 
   "scripts" : {
-    "preinstall": "node-waf clean && exit 113",
     "test" : "mocha",
     "start" : "node server.js"
   }
