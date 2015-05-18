@@ -1,5 +1,5 @@
 var http = require('http'),
-    should = require('should'),
+  should = require('should'),
     sysInfo = require('../lib/sysinfo.js'),
     keyProcessor = require('../lib/keyprocessor.js'),
     hock = require('hock');
