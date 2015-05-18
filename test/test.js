@@ -1,5 +1,5 @@
 var http = require('http'),
-    should = require('should'),
+  should = require('should'),
     sysInfo = require('../lib/sysinfo.js'),
     keyProcessor = require('../lib/keyprocessor.js'),
     hock = require('hock');
@@ -14,7 +14,7 @@ describe('node-env/sdk/environment', function (done) {
   it("Can list system environment variables", function () {
     var env = sysInfo.sysInfo();
     should.exist(env);
-    env.length.should.be.equal(15);
+    env.length.should.be.equal(16);
   });
 
   it("Key processor leaves values unchanged", function () {
