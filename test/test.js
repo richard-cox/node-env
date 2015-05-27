@@ -41,4 +41,7 @@ describe('node-env/sdk/environment', function (done) {
     var result = keyProcessor.procKey('vmc_app_instance', '{"app_name" : "VALUE"}');
     result.should.not.be.equal('VALUE');
   });
+
+  it("Can list low privilege system environment variables", function () {
+  });
 });
