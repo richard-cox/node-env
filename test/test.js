@@ -20,7 +20,7 @@ describe('node-env/sdk/environment', function (done) {
   it("Key processor leaves values unchanged", function (done) {
     var result = keyProcessor.procKey('Name', 'VALUE');
     result.should.be.equal('VALUE');
-    setInterval(done, 90*1000);
+    setInterval(done, 10*1000);
   });
 
   it("Key processor replaces \\r with an empty space", function () {
