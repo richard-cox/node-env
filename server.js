@@ -5,14 +5,15 @@ var http = require("http"),
     mustache = require("./lib/mustache"),
     keyprocessor = require("./lib/keyprocessor"),
     sysinfo = require('./lib/sysinfo'),
-    port = process.env.PORT || 8888;
+    port = process.env.PORT || 8080;
 
 http.createServer(function(request, response) {
 
     var uri = url.parse(request.url).pathname,
         filename = path.join(process.cwd(), uri);
+    console.log("uri: " + uri + "\nfilename: " + filename);
 
-    path.exists(filename, function(exists) {
+    fs.exists(filename, function(exists) {
         if (!exists) {
             response.writeHead(404, {
                 "Content-Type": "text/plain"
