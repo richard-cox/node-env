@@ -43,6 +43,7 @@ http.createServer(function(request, response) {
                 response.end()
                 return;
             });
+            return; //need to return here otherwise the code below will execute. 
         }
 
         if (fs.statSync(filename).isDirectory()) filename += '/index.html';
@@ -60,6 +61,7 @@ http.createServer(function(request, response) {
             response.writeHead(200);
             response.write(file, "binary");
             response.end();
+            return;
         });
     });
 }).listen(parseInt(port, 10));
