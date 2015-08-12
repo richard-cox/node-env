@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-env
+  labels:
+    app: node-env
+    kubernetes.io/cluster-service: "true"
+    kubernetes.io/name: "node-env"
+spec:
+  selector:
+    app: node-env
+  ports:
+  - port: 80
+    targetPort: 8080
+
