@@ -1,6 +1,6 @@
 FROM node:slim
 
-COPY ./src /src
+COPY ./ /src
 WORKDIR /src
 
 RUN npm install
