@@ -1,6 +1,10 @@
-FROM node
+FROM node:slim
+
 COPY ./src /src
 WORKDIR /src
-RUN npm install
-#EXPOSE  8888
+
+EXPOSE  8080
 CMD ["node", "server.js"]
+
+
+
