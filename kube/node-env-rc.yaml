@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: node-env
-        image: ogazitt/node-env
+        image: ogazitt/node-env:latest
         resources:
           limits:
             cpu: 100m
