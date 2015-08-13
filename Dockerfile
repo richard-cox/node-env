@@ -1,4 +1,4 @@
-FROM node:slim
+FROM hwestphal/nodebox
 
 COPY ./ /src
 WORKDIR /src
