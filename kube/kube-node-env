@@ -1,0 +1,4 @@
+#!/bin/sh
+kubectl create -f node-env-rc.yaml
+kubectl create -f node-env-svc.yaml
+kubectl cluster-info --namespace=default
