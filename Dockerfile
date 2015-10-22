@@ -3,8 +3,8 @@ FROM hwestphal/nodebox
 COPY ./ /src
 WORKDIR /src
 
-ENV HTTP_PROXY %http_proxy%
-ENV HTTPS_PROXY %https_proxy%
+ENV HTTP_PROXY %HTTP_PROXY%
+ENV HTTPS_PROXY %HTTPS_PROXY%
 
 RUN env
 
