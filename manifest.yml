@@ -1,4 +1,6 @@
 applications:
-- name: node-env
+- name: rc-node-env
   description : Simple demo that prints the server's environment variables.
-  mem: 256M
+  memory: 100M
+  host: rc-node-env
+  domain: hcf.helion.lol
