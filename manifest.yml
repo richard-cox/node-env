@@ -1,6 +1,4 @@
 applications:
-- name: rcnodeenv
+- name: rcnodeenvirfan
   description : Simple demo that prints the server's environment variables.
   memory: 32M
-  host: rcnodeenv
-  domain: hcf.helion.lol
