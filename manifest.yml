@@ -1,4 +1,6 @@
+---
 applications:
-- name: node-irfan-env
-  description : Simple demo that prints the server's environment variables.
-  mem: 256M
+- name: irfan-node-env
+  host: irfan
+  domain: hcf.helion.lol
+  memory: 64MB
