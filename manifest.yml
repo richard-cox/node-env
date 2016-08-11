@@ -8,4 +8,4 @@ applications:
   domain: 192.168.77.77.nip.io
   # We have provisioned and bound services
   services:
-  mem: 32M
+  memory: 32M
