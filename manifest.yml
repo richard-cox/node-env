@@ -6,6 +6,4 @@ applications:
 - name: rc-node-env
   host: rc-node-env
   domain: cf.helion.space
-  # We have provisioned and bound services
-  services:
   memory: 32M
