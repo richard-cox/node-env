@@ -5,7 +5,7 @@ applications:
 # We have reserved a name/route for your app
 - name: rc-node-env
   host: rc-node-env
-  domain: 192.168.77.77.nip.io
+  domain: cf.helion.space
   # We have provisioned and bound services
   services:
   memory: 32M
