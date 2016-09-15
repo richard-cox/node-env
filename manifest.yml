@@ -5,7 +5,5 @@ applications:
 # We have reserved a name/route for your app
 - name: rc-node-env
   host: rc-node-env
-  domain: cf.helion.space
-  # We have provisioned and bound services
-  services:
+  domain: hcf.hsc.helion.space
   memory: 32M
