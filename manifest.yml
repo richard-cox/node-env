@@ -3,9 +3,6 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: rc-node-env
-  host: rc-node-env
-  domain: cf.helion.space
-  # We have provisioned and bound services
-  services:
-  memory: 32M
+- name: rc-node-env2
+  host: rc-node-env2
+  domain: hcf.hsc.helion.space
