@@ -6,3 +6,4 @@ applications:
 - name: rc-test-1
   host: rc-test-1
   domain: hcf.hsc.stacktest.io
+  memory: 32M
