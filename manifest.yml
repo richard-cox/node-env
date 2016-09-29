@@ -3,7 +3,7 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: rc-node-env
-  host: rc-node-env
-  domain: hcf.hsc.helion.space
+- name: rc-test-3
+  host: rc-test-3
+  domain: hcf.hsc.stacktest.io
   memory: 32M
