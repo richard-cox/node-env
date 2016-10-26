@@ -3,6 +3,6 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: testApp
-  host: testApp
+- name: nodeenv
+  host: nodeenv
   domain: hcf.julbra.stacktest.io
