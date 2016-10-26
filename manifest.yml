@@ -7,3 +7,6 @@ applications:
   host: rc-test-4
   domain: hcf.hsc.stacktest.io
   memory: 32M
+  # We have provisioned and bound services
+  services:
+  - rc-test-2
