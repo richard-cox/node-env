@@ -1,11 +1,22 @@
-var http = require("http"),
-    url = require("url"),
-    path = require("path"),
-    fs = require("fs"),
-    mustache = require("./lib/mustache"),
-    keyprocessor = require("./lib/keyprocessor"),
+var http = require('http'),
+    url = require('url'),
+    path = require('path'),
+    fs = require('fs'),
+    mustache = require('./lib/mustache'),
+    keyprocessor = require('./lib/keyprocessor'),
     sysinfo = require('./lib/sysinfo'),
+    moment = require('moment'),
+    randomWords = require('random-words'),
     port = process.env.PORT || 8080;
+
+setInterval(function() {
+    for (var i = 0; i < 1; i++) {
+        var phrase = randomWords({ min: 3, max: 10 }).join(' ');
+        phrase = phrase.charAt(0).toUpperCase() + phrase.slice(1);
+        // console.log(phrase);
+        console.log(phrase);
+    }
+}, 100);
 
 http.createServer(function(request, response) {
 
