@@ -3,10 +3,7 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: rc-test-1
-  host: rc-test-1
+- name: rc-test-3
+  host: rc-test-3
   domain: hcf.hsc.stacktest.io
-  # We have provisioned and bound services
-  services:
-  - rc-test-1
   memory: 32M
