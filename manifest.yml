@@ -3,6 +3,6 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: irfan-node-env
-  host: irfan-node-env
-  domain: hcf.hsc.stacktest.io
+- name: irfan-test
+  host: irfan-test
+  domain: hcf.hscdemo.stacktest.io
