@@ -1,10 +1,10 @@
 {
   "name": "node-env",
   "version": "1.0.0",
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  },
+   "engines": {
+    "node": "6.x.x",
+    "npm": "3.x.x"
+   },
   "dependencies": {
     "moment": "^2.13.0",
     "random-words": "0.0.1"
