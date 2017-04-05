@@ -12,9 +12,10 @@ var http = require('http'),
 setInterval(function() {
     for (var i = 0; i < 1; i++) {
         var phrase = randomWords({ min: 3, max: 10 }).join(' ');
-        phrase = phrase.charAt(0).toUpperCase() + phrase.slice(1);
+        // phrase = phrase.charAt(0).toUpperCase() + phrase.slice(1);
         // console.log(phrase);
-        console.log(phrase);
+        console.log('Quoth the Raven: ' + phrase);
+        console.error('Quoth the Raven: ' + phrase);
     }
 }, 100);
 
