@@ -7,5 +7,4 @@ applications:
   host: node-env
   domain: cf-dev.io
   # We have provisioned and bound services
-  services:
   memory: 32M
