@@ -5,7 +5,7 @@ applications:
 # We have reserved a name/route for your app
 - name: node-env
   host: node-env
-  domain: cf.helion.space
+  domain: cf-dev.io
   # We have provisioned and bound services
   services:
   memory: 32M
