@@ -7,4 +7,4 @@ applications:
   host: github-test-rc
   domain: cf-dev.io
   description : Simple demo that prints the server's environment variables.
-  memory: 64M
+  memory: 128M
