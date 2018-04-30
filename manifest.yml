@@ -3,8 +3,8 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: flansy-pan-da-gibery-jam
-  host: flansy-pan-da-gibery-jam
+- name: github-test-rc
+  host: github-test-rc
   domain: cf-dev.io
   description : Simple demo that prints the server's environment variables.
   memory: 64M
