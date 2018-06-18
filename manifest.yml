@@ -3,8 +3,8 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: github-test-rc
-  host: github-test-rc
-  domain: cf-dev.io
+- name: node-env
+  host: node-env
+  domain: local.pcfdev.io
   description : Simple demo that prints the server's environment variables.
-  memory: 128M
+  memory: 64M
