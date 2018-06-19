@@ -3,8 +3,8 @@
 # We have created a delivery pipeline
 applications:
 # We have reserved a name/route for your app
-- name: node-env
-  host: node-env
+- name: node-env-rc
+  host: node-env-rc
   domain: local.pcfdev.io
   description : Simple demo that prints the server's environment variables.
   memory: 64M
