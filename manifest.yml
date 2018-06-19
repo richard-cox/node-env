@@ -7,4 +7,4 @@ applications:
   host: node-env-rc
   domain: local.pcfdev.io
   description : Simple demo that prints the server's environment variables.
-  memory: 32M
+  memory: 64M
